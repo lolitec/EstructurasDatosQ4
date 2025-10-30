@@ -23,7 +23,7 @@ def cons_num_alumnos():
         try:
             n = int(input("Ingrese el número de alumnos del grupo TI41: "))
             if n < 0:
-                continue
+                continue  
             elif n == 0:
                 continue
             else:
